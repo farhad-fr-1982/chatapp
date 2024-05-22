@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('./assets/fonts/IRANSansWeb.eot');
+  src: url('./assets/fonts/IRANSansWeb.eot') format('embedded-opentype'), url('./assets/fonts/IRANSansWeb.woff') format('woff'), url('./assets/fonts/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'IRANSansWeb' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-200
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
